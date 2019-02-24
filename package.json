@@ -19,7 +19,5 @@
     "url": "https://github.com/Milexys/SCL007-md-links/issues"
   },
   "homepage": "https://github.com/Milexys/SCL007-md-links#readme",
-  "dependencies": {
-    "eslint": "^5.14.1"
-  }
+  "dependencies": {}
 }
