@@ -1,12 +1,22 @@
+#!/usr/bin/env node
+
 /*module.exports = () => {
   // ...
 };
 */
 const fs =  require ('fs');
+const path =  require ('path');
+const fetch = require('node-fetch');
 
-fs.readFile("./README.md",function(err, data){
-  if (err){
-    console.log(err)
-  }
-  console.log(data.toString());
-})
+
+function readDir (dir){
+
+  fs.readdir(dir, function(err, files){
+    if (err){
+      console.log(err)
+    }
+    console.log(files);
+  })
+
+}
+console.log(readDir("./"));

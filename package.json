@@ -13,11 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/Milexys/SCL007-md-links.git"
   },
-  "author": "",
+  "author": "Milexys Ferrer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Milexys/SCL007-md-links/issues"
   },
   "homepage": "https://github.com/Milexys/SCL007-md-links#readme",
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
 }
