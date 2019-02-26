@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Milexys/SCL007-md-links#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
+    "markdown-link-extractor": "^1.2.0",
     "node-fetch": "^2.3.0"
   }
 }
