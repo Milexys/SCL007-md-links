@@ -1,6 +1,6 @@
 {
   "name": "md-links",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "## Preámbulo",
   "main": "index.js",
   "bin": {
@@ -23,8 +23,6 @@
   },
   "homepage": "https://github.com/Milexys/SCL007-md-links#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "lodash": "^4.17.11",
     "markdown-link-extractor": "^1.2.0",
     "node-fetch": "^2.3.0"
   }
